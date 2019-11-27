@@ -1,3 +1,7 @@
+"""
+python3.5 setup.py build
+python3.5 setup.py install
+"""
 from distutils.core import setup, Extension
 
 module1 = Extension('hello2', sources = ['hello2.c'])
