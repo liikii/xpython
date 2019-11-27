@@ -36,7 +36,7 @@ static struct PyModuleDef cModPyDem =
 };
 
 
-PyMODINIT_FUNC PyInit_cModPyDem(void)
+PyMODINIT_FUNC PyInit_hello2(void)
 {
     return PyModule_Create(&cModPyDem);
 }
